@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "x-post-mcp": {
+      "url": "${X_POST_MCP_URL}"
+    }
+  }
+}
