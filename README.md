@@ -4,8 +4,9 @@ Prepare, review, and publish posts to X without leaving Cursor. This repository 
 open-source Cursor package: it contains the plugin manifest, hosted MCP endpoint configuration,
 documentation, and artwork. It contains no X credentials and no private server source code.
 
-> Release status: **0.1.0 release candidate.** Packaging is complete, but public use will remain
-> unavailable until the hosted service has its X Developer OAuth client configured.
+> Release status: **0.1.0 public beta.** Packaging, hosted OAuth configuration, Cursor installation,
+> and connected-account status have been tested. The current self-hosted endpoint may still be
+> unavailable during maintenance.
 
 ## Install
 

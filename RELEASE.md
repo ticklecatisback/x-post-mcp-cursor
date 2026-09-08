@@ -12,7 +12,7 @@
 
 ## External launch gates
 
-- [ ] Configure `X_CLIENT_ID` and optional `X_CLIENT_SECRET` in the hosted service secret store.
+- [x] Configure `X_CLIENT_ID` and optional `X_CLIENT_SECRET` in the hosted service secret store.
 - [ ] Verify X OAuth connect, prepare, browser approval, publish, and disconnect with a test account.
 - [ ] Move the hosted service to an always-on production environment with backups and monitoring.
 - [x] Push this wrapper to the public repository named in the manifest.
