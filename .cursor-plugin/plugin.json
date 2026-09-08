@@ -8,16 +8,5 @@
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": ["x", "twitter", "social", "posting", "mcp"],
-  "mcpServers": "./mcp.json",
-  "variables": {
-    "type": "object",
-    "properties": {
-      "X_POST_MCP_URL": {
-        "type": "string",
-        "title": "Hosted X Post MCP URL",
-        "description": "HTTPS Streamable HTTP endpoint supplied by the X Post MCP operator, ending in /mcp."
-      }
-    },
-    "required": ["X_POST_MCP_URL"]
-  }
+  "mcpServers": "./mcp.json"
 }

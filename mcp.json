@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "x-post-mcp": {
-      "url": "${X_POST_MCP_URL}"
+      "url": "https://seths-macbook-neo.tail481eb5.ts.net/mcp"
     }
   }
 }

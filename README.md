@@ -7,9 +7,8 @@ implementation runs on the operator's infrastructure.
 ## Install for private beta
 
 1. Install this plugin in Cursor.
-2. Set `X_POST_MCP_URL` to the HTTPS endpoint supplied by the service operator, including `/mcp`.
-3. Choose **Connect** when Cursor opens the OAuth flow.
-4. Authorize the requested X permissions.
+2. Choose **Connect** when Cursor opens the OAuth flow.
+3. Authorize the requested X permissions.
 
 ## Safety model
 
