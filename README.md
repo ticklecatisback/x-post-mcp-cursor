@@ -1,14 +1,23 @@
 # X Post MCP for Cursor
 
-Prepare, review, and publish posts to X through a hosted MCP service. The Cursor package contains
-only this manifest, its remote endpoint configuration, documentation, and artwork. The service
-implementation runs on the operator's infrastructure.
+Prepare, review, and publish posts to X without leaving Cursor. This repository is the small,
+open-source Cursor package: it contains the plugin manifest, hosted MCP endpoint configuration,
+documentation, and artwork. It contains no X credentials and no private server source code.
 
-## Install for private beta
+> Release status: **0.1.0 release candidate.** Packaging is complete, but public use will remain
+> unavailable until the hosted service has its X Developer OAuth client configured.
 
-1. Install this plugin in Cursor.
+## Install
+
+Use the [one-click Cursor installer](cursor://anysphere.cursor-deeplink/mcp/install?name=x-post-mcp&config=eyJ1cmwiOiJodHRwczovL3NldGhzLW1hY2Jvb2stbmVvLnRhaWw0ODFlYjUudHMubmV0L21jcCJ9),
+or install this repository as a Cursor plugin.
+
+After installation:
+
+1. Ask Cursor to check `x_connection_status`.
 2. Choose **Connect** when Cursor opens the OAuth flow.
 3. Authorize the requested X permissions.
+4. Ask Cursor to prepare a post, review it in the browser, and approve it before publishing.
 
 ## Safety model
 
@@ -37,5 +46,21 @@ repository or in Cursor configuration. See [PRIVACY.md](PRIVACY.md).
 
 ## Support
 
-This is a private-beta package until the production endpoint, privacy contact, and support address
-are finalized.
+Open a bug report or support request in
+[GitHub Issues](https://github.com/ticklecatisback/x-post-mcp-cursor/issues). For security issues,
+follow [SECURITY.md](SECURITY.md).
+
+## Availability and costs
+
+The current release-candidate endpoint is self-hosted and may be unavailable during maintenance.
+Publishing uses X's API and can incur charges billed by X to the service operator. The plugin does
+not charge users directly in version 0.1.0. A cost estimate is shown before each approval.
+
+## Development
+
+Run `node scripts/validate-release.mjs` from the repository root. See
+[CONTRIBUTING.md](CONTRIBUTING.md) and [RELEASE.md](RELEASE.md) for the complete checks.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "Prepare, review, and explicitly confirm posts to X from Cursor through a hosted MCP service.",
   "author": {
-    "name": "Evidyne Contributors"
+    "name": "ticklecatisback"
   },
+  "homepage": "https://github.com/ticklecatisback/x-post-mcp-cursor",
+  "repository": "https://github.com/ticklecatisback/x-post-mcp-cursor",
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": ["x", "twitter", "social", "posting", "mcp"],
