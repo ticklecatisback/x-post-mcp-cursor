@@ -15,7 +15,7 @@
 - [ ] Configure `X_CLIENT_ID` and optional `X_CLIENT_SECRET` in the hosted service secret store.
 - [ ] Verify X OAuth connect, prepare, browser approval, publish, and disconnect with a test account.
 - [ ] Move the hosted service to an always-on production environment with backups and monitoring.
-- [ ] Push this wrapper to the public repository named in the manifest.
+- [x] Push this wrapper to the public repository named in the manifest.
 - [ ] Enable GitHub private vulnerability reporting.
 - [ ] Create and test a signed/tagged `v0.1.0` release archive.
 - [ ] Submit the public repository URL to the Cursor Marketplace for review.
