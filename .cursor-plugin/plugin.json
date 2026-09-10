@@ -1,7 +1,7 @@
 {
   "name": "x-post-mcp",
-  "version": "0.1.0",
-  "description": "Prepare, review, and explicitly confirm posts to X from Cursor through a hosted MCP service.",
+  "version": "0.2.0",
+  "description": "Safely prepare, approve, publish, schedule, and measure X posts and threads from Cursor.",
   "author": {
     "name": "ticklecatisback"
   },

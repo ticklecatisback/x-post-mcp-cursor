@@ -4,7 +4,7 @@ Prepare, review, and publish posts to X without leaving Cursor. This repository 
 open-source Cursor package: it contains the plugin manifest, hosted MCP endpoint configuration,
 documentation, and artwork. It contains no X credentials and no private server source code.
 
-> Release status: **0.1.0 public beta.** Packaging, hosted OAuth configuration, Cursor installation,
+> Release status: **0.2.0 release candidate.** Packaging, hosted OAuth configuration, Cursor installation,
 > and connected-account status have been tested. The current self-hosted endpoint may still be
 > unavailable during maintenance.
 
@@ -31,13 +31,19 @@ Publishing is always a two-step action:
 3. `x_publish_post` accepts only that unchanged, browser-approved preview. Ambiguous X responses
    are never retried automatically.
 
-The initial release does not schedule posts, send automatic replies, target trends, or bulk-post.
+Scheduled posts are one-time, immutable, and browser-approved. Recurring, generated, trend-targeted,
+and bulk posting are intentionally excluded.
 
 ## Tools
 
 - `x_connection_status`
+- `x_upload_media`
 - `x_prepare_post`
 - `x_publish_post`
+- `x_prepare_thread`
+- `x_publish_thread`
+- `x_schedule_status`
+- `x_get_post_analytics`
 - `x_disconnect`
 
 ## Privacy
@@ -55,7 +61,8 @@ follow [SECURITY.md](SECURITY.md).
 
 The current release-candidate endpoint is self-hosted and may be unavailable during maintenance.
 Publishing uses X's API and can incur charges billed by X to the service operator. The plugin does
-not charge users directly in version 0.1.0. A cost estimate is shown before each approval.
+not charge users directly in version 0.2.0. A cost estimate is shown before each approval. X may
+also bill media uploads and analytics reads.
 
 ## Development
 

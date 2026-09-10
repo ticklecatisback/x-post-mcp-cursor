@@ -17,7 +17,7 @@
 - [ ] Move the hosted service to an always-on production environment with backups and monitoring.
 - [x] Push this wrapper to the public repository named in the manifest.
 - [ ] Enable GitHub private vulnerability reporting.
-- [ ] Create and test a signed/tagged `v0.1.0` release archive.
+- [ ] Create and test a signed/tagged `v0.2.0` release archive.
 - [ ] Submit the public repository URL to the Cursor Marketplace for review.
 
 Do not submit to the Marketplace while any functional or hosting launch gate is incomplete.
